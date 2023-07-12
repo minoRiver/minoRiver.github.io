@@ -19,17 +19,29 @@ typora-root-url: ../
 
 #### Point Light
 
-Point Light는 공간의 한 점에서부터 광원을 모든 방향으로 균등하게 내보
+씬의 한 점에 위치하며 그 지점에서부터 모든 방향으로 균등하게 빛을 발산하는 광원을 Point Light 라고 합니다. 라이트와 거리가 멀어질수록 적용되는 빛의 세기가 약해집니다.
+
+![image-20230711172827777](/C:/Users/kangm/AppData/Roaming/Typora/typora-user-images/image-20230711172827777.png)
+
+Point Light 는 씬에 있는 램프, 형광등 같은 오브젝트의 라이트를 표현하는데 사용됩니다. 또한 스파크 또는 폭발에서 발생하는 광원으로 좀 더 현실적으로 표현하려고 할 때 사용됩니다.
 
 <br>
 
 #### Directional Light
+
+씬에서 햇빛 같은 효과를 만드는데 많이 사용합니다. 즉 게임 세계의 버위 밖에 있는 위치에서 오는 크고 먼 광원을 표현하는데 사용됩니다. 여러 면에서 태양처럼 동작하는 Directional Light 는 무한한 거리에 멀리 떨어져 있는 라이트라고 생각할 수 있습니다. Directional Light 는 포지션이 없으며, 오브젝트와 라이트의 거리에 따라 광원이 약하게 적용되지 않습니다.
+
+![image-20230711173650698](/C:/Users/kangm/AppData/Roaming/Typora/typora-user-images/image-20230711173650698.png)
 
 
 
 <br>
 
 #### Spot Light
+
+Spot Light 는 Point Light 와 마찬가지로 라이트의 위치와 적용되는 범위가 있습니다. 하지만 Spot Light 는 특정 각도로 제약되므로 라이트가 비추는 원뿔 모양의 영역이 발생합니다. Spot Light 는 일반적으로 플래시라이트, 자동차의 헤드라이트 같은 오브젝트의 라이트를 표현할 때 사용됩니다.
+
+![image-20230711173705382](/C:/Users/kangm/AppData/Roaming/Typora/typora-user-images/image-20230711173705382.png)
 
 
 
